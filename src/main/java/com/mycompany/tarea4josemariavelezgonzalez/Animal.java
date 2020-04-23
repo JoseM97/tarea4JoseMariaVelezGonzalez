@@ -11,9 +11,9 @@ package com.mycompany.tarea4josemariavelezgonzalez;
  */
 public class Animal {
     
-    String nombre;
-    double tamaño;
-    String raza;
+    private String nombre;
+    private double tamaño;
+    private String raza;
 
     public Animal(String nombre, double tamaño, String raza) {
         this.nombre = nombre;
@@ -22,5 +22,29 @@ public class Animal {
     }
     
     public Animal() {
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getTamaño() {
+        return tamaño;
+    }
+
+    public void setTamaño(double tamaño) {
+        this.tamaño = tamaño;
+    }
+
+    public String getRaza() {
+        return raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
     }
 }
