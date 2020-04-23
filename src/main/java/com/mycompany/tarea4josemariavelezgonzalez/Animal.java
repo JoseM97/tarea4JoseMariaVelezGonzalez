@@ -14,4 +14,13 @@ public class Animal {
     String nombre;
     double tamaño;
     String raza;
+
+    public Animal(String nombre, double tamaño, String raza) {
+        this.nombre = nombre;
+        this.tamaño = tamaño;
+        this.raza = raza;
+    }
+    
+    public Animal() {
+    }
 }
