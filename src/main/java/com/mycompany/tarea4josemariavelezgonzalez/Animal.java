@@ -47,4 +47,9 @@ public class Animal {
     public void setRaza(String raza) {
         this.raza = raza;
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" + "nombre=" + nombre + ", tama\u00f1o=" + tamaño + ", raza=" + raza + '}';
+    }
 }
